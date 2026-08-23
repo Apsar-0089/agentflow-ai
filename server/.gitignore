@@ -1,0 +1,29 @@
+# ===========================
+# Node.js Dependencies
+# ===========================
+node_modules/
+
+# ===========================
+# Environment Variables (NEVER commit!)
+# ===========================
+.env
+.env.local
+.env.production
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+
+# ===========================
+# Build
+# ===========================
+dist/
+
+# ===========================
+# MongoDB Memory Server
+# ===========================
+.mongodb-binaries/
+mongodb-binaries/

@@ -1,0 +1,25 @@
+{
+  "name": "agentflow-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agentic AI Operations Automation Platform (Agentflow_AI)",
+  "scripts": {
+    "install:all": "npm install && npm run install:server && npm run install:client",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "npm run dev:server",
+    "build:client": "cd client && npm run build",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [
+    "agentic-ai",
+    "workflow-automation",
+    "langgraph",
+    "reactflow",
+    "nextjs"
+  ],
+  "author": "",
+  "license": "ISC"
+}
