@@ -50,6 +50,16 @@ if (env.nodeEnv !== 'test') {
   app.use(morgan('dev'));
 }
 
+// Root Route — confirms backend is live
+app.get('/', (req, res) => {
+  res.status(200).json({
+    service: 'Agentflow_AI Orchestration Server',
+    version: '1.0.0',
+    status: 'running',
+    docs: '/api/health',
+  });
+});
+
 // Health Check Endpoint
 app.get('/api/health', (req, res) => {
   res.status(200).json({
