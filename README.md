@@ -4,9 +4,7 @@
 
 ## 🚀 Live Demo
 
-Experience Agentflow AI live:
-
-👉 [Open Agentflow AI](https://agentflow-ai-flame.vercel.app)
+Experience Agentflow AI live: 👉 [Open Agentflow AI](https://agentflow-ai-flame.vercel.app)
 > The project is currently available locally. A live deployment will be added soon.
 ---
 
