@@ -2,6 +2,12 @@
 
 **Agentflow_AI** is a full-stack AI Operations Automation Platform that lets operators describe complex workflows in natural language and turns them into executable visual DAG graphs. The platform features an autonomous 5-agent execution chain (Planner, Execution, Validation, Recovery, Monitoring), OAuth integrations (Gmail, Slack, Discord, Google Sheets) with AES-256-GCM token encryption, background scheduling queues with automatic in-memory fallback, and live Socket.IO event streaming.
 
+## 🚀 Live Demo
+
+Experience Agentflow AI live:
+
+👉 [Open Agentflow AI](https://agentflow-ai-flame.vercel.app)
+> The project is currently available locally. A live deployment will be added soon.
 ---
 
 ## 🚀 Key Features
